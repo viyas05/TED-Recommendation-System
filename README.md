@@ -19,14 +19,16 @@ This project recommends relevant TED Talks using Python and machine learning tec
 - Cosine Similarity
 
 ## Project Structure
-- `dataset/` — Dataset files
+- `dataset/` — Dataset files and recommendation script
+  - `ted_main.csv` — TED Talks metadata
+  - `transcripts.csv` — TED Talks transcripts
+  - `recommendation.py` — Content-based recommendation logic
 - `explore_dataset.py` — Data merging, cleaning, preprocessing, and EDA
-- `recommendation.py` — Content-based recommendation logic
 - `ted_talks_preprocessed.csv` — Preprocessed dataset
 - `dataset_documentation.md` — Dataset and column documentation
 - `talk_length_distribution.png` — Talk duration visualization
 - `tag_frequency.png` — Topic tag visualization
-
+  
 ## Current Progress
 - Dataset merging and cleaning
 - Missing-data handling
